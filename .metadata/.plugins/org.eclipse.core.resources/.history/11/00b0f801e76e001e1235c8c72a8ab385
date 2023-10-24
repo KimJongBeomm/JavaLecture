@@ -1,0 +1,25 @@
+package chap99_homework.hw231019._01;
+
+public abstract class Employee {
+	 private int eno;
+	    private String name;
+	    public int pay;
+	    private int type;
+
+	    public Employee(int eno, String name, int pay, int type) {
+	        this.eno = eno;
+	        this.name = name;
+	        this.pay = pay;
+	        this.type = type;
+	    }
+
+	    public abstract double getMonthPay();
+
+	    public void showEmployeeInfo() {
+	        System.out.println("사번: " + eno);
+	        System.out.println("이름: " + name);
+	        System.out.println("급여: " + pay);
+	        System.out.println("근무형태: " + type);
+	        System.out.println("월급: " + getMonthPay());
+	    }
+	}

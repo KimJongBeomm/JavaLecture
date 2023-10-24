@@ -1,0 +1,16 @@
+package chap99_homework.hw231019;
+
+import chap99_homework.hw231019._01.PW;
+import chap99_homework.hw231019._01.TW;
+import chap99_homework.hw231019._01.PT;
+public class EmployeeEx {
+	 public static void main(String[] args) {
+	        PW pw = new PW(1, "정규직직원", 60000, 5000);
+	        TW tw = new TW(2, "임시직직원", 30000, 3);
+	        PT pt = new PT(3, "알바직원", 200, 20);
+
+	        pw.showEmployeeInfo();
+	        tw.showEmployeeInfo();
+	        pt.showEmployeeInfo();
+	    }
+	}

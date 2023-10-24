@@ -1,0 +1,111 @@
+package user;
+
+import javax.swing.plaf.basic.BasicLookAndFeel;
+
+public class dsafadsf {
+
+	public static void main(String[] args) {
+		// 정수형 변수 선언과 초기화
+		int age = 30;
+		
+		// 문자열 변수 선언과 초기화
+		String name = "Jong Beom";
+		
+		//변수 사용
+		System.out.println(age);
+		System.out.println(name);
+		
+		// 변수 값 변경(재정의)
+		
+		age = 31;
+		name = "Ji Woo";
+		
+		System.out.println(age);
+		System.out.println(name);
+		
+		System.out.println("==========================");
+		
+		
+		
+		// 변수 선언 및 초기화
+		
+		int num1 = 10;
+		int num2 = 5;
+		
+		// 덧셈 연산
+		int sum = num1 + num2;
+		System.out.println("덧셈 결과 : " + sum);
+		
+		int dif = num1 - num2;
+		System.out.println("뺏셈 결과 : " + dif);
+		
+		int product = num1 * num2;
+		System.out.println("곱셈 결과 : " + product);
+		
+		int quorient = num1 / num2;
+		System.out.println("나눗셈 결과 : " + quorient);
+		
+		int remainder = num1 % num2;
+		System.out.println("나머지 결과 : " + remainder);
+		
+		System.out.println("======================");
+		
+		boolean isEqual = num1 == num2;
+		System.out.println("num1 과 num2 가 같은가? " + isEqual);
+		
+		boolean isNotEqual = num1 != num2;
+		System.out.println("num1 과 num2 가 다른가? " + isNotEqual);
+		
+		boolean isGreater = num1 > num2;
+		System.out.println("num1 이 num2 보다 큰가? " + isGreater);
+		
+		boolean isLess = num1 < num2;
+		System.out.println("num1 이 num2 보다 작은가? " + isLess);
+		
+		boolean isGreaterOrEqual = num1 >= num2;
+		System.out.println("num1이 num2보다 크거나 같은가? " + isGreaterOrEqual);
+		
+		boolean isLessorEqual = num1 <= num2;
+		System.out.println("num1이 num2보다 작거나 같은가? " + isLessorEqual);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		for(int i = 1; i <= 100; i++) {
+			if(i % 2 != 0)
+			System.out.println(i);
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		 
+		
+	}
+
+}

@@ -1,0 +1,15 @@
+package chap99_homework.hw231019._01;
+//알바
+public class PT extends Employee {
+    private int workDay;
+
+    public PT(int eno, String name, int pay, int workDay) {
+        super(eno, name, pay, 2);
+        this.workDay = workDay;
+    }
+
+    @Override
+    public double getMonthPay() {
+        return pay * workDay;
+    }
+}

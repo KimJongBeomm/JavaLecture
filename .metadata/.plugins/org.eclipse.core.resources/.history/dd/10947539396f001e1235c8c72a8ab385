@@ -1,0 +1,170 @@
+package user;
+
+import javax.swing.plaf.basic.BasicLookAndFeel;
+
+public class dsafadsf {
+
+	public static void main(String[] args) {
+		// 정수형 변수 선언과 초기화
+		int age = 30;
+		
+		// 문자열 변수 선언과 초기화
+		String name = "Jong Beom";
+		
+		//변수 사용
+		System.out.println(age);
+		System.out.println(name);
+		
+		// 변수 값 변경(재정의)
+		
+		age = 31;
+		name = "Ji Woo";
+		
+		System.out.println(age);
+		System.out.println(name);
+		
+		System.out.println("==========================");
+		
+		
+		
+		// 변수 선언 및 초기화
+		
+		int num1 = 10;
+		int num2 = 5;
+		
+		// 덧셈 연산
+		int sum = num1 + num2;
+		System.out.println("덧셈 결과 : " + sum);
+		
+		int dif = num1 - num2;
+		System.out.println("뺏셈 결과 : " + dif);
+		
+		int product = num1 * num2;
+		System.out.println("곱셈 결과 : " + product);
+		
+		int quorient = num1 / num2;
+		System.out.println("나눗셈 결과 : " + quorient);
+		
+		int remainder = num1 % num2;
+		System.out.println("나머지 결과 : " + remainder);
+		
+		System.out.println("======================");
+		
+		boolean isEqual = num1 == num2;
+		System.out.println("num1 과 num2 가 같은가? " + isEqual);
+		
+		boolean isNotEqual = num1 != num2;
+		System.out.println("num1 과 num2 가 다른가? " + isNotEqual);
+		
+		boolean isGreater = num1 > num2;
+		System.out.println("num1 이 num2 보다 큰가? " + isGreater);
+		
+		boolean isLess = num1 < num2;
+		System.out.println("num1 이 num2 보다 작은가? " + isLess);
+		
+		boolean isGreaterOrEqual = num1 >= num2;
+		System.out.println("num1이 num2보다 크거나 같은가? " + isGreaterOrEqual);
+		
+		boolean isLessorEqual = num1 <= num2;
+		System.out.println("num1이 num2보다 작거나 같은가? " + isLessorEqual);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		boolean i = num1 > num2; // 1이 2보다 큰가?
+		boolean i1 = num1 < num2; // 1이 2보다 작은가?
+		boolean i2 = num1 == num2; // 1과 2가 같은가?
+		boolean i3 = num1 != num2; // 1과 2가 같지 않은가?
+		boolean i4 = num1 <= num2; // 1이2보다 같거나 작은가?
+		boolean i5 = num1 >= num2; // 1이 2보다 크거나 같은가?
+		
+		System.out.println("=====================");
+		
+		int counter = 5;
+		counter++;
+		
+		int decrementedValue = counter--;
+		
+		System.out.println("증가된 값 " + counter);
+		System.out.println("감소된 값 " + decrementedValue);
+		
+		System.out.println("=====================");
+		
+		boolean isTrue = true;
+		boolean isFalse = false;
+		boolean andResult = isFalse && isFalse; // 논리 AND연산
+		boolean orResult = isTrue || isFalse; // 논리 oR연산자
+		System.out.println("And 결과 : " + andResult);
+		System.out.println("OR 결과 : " + orResult);
+		// AND연산은 둘다 true 일때만(false가 두개여도 안됨) true 결과값을 가져온다.
+		// OR연산은 둘중에 하나만 true 여도 ture 결과값을 가져온다.
+		
+		System.out.println("======================");
+		int num3 = 12;
+		int num4 = 6;
+		int bitwiseAnd = num3 & num4; // 비트 AND 연산
+		int bitwiseOr = num3 | num4; // 비트 OR 연산
+		System.out.println("비트 AND 결과 : " + bitwiseAnd);
+		System.out.println("비트 OR 결과 : " + bitwiseOr);
+		
+		System.out.println("======================");
+		
+		int value = 10;
+		int value2 = 5;
+		int min = (value < value2) ? value : value2;
+		System.out.println("최솟값 : "+ min);
+		int men = (value > value2) ? value : value2;
+		System.out.println("최대값 : " + men);
+		
+		System.out.println("=========================");
+		int total = 1;
+		total += 5;
+		total *= 3;
+		total -= 8;
+		total /= 5;
+		total += 10;
+		total %= 5;
+		System.out.println("최종 합계: " + total);
+		
+		System.out.println("===============");
+		
+		int age1 = 20;
+		if(age1 >= 20) {
+			System.out.println("성인 입니다.");
+		} else {
+			System.out.println("미성년자 입니다.");
+		}
+		
+		
+		System.out.println("=================");
+		
+		for(int i11 =1; i11<=5; i11++) {
+			System.out.println("반복횟수 : " + i11);
+		}
+		
+		int count1 = 0;
+		while(count1 < 5) {
+			System.out.println("카운트 : " + count1);
+			count1++;
+		}
+		
+		
+		String inputString = "Hello, ";
+        int repeatCount = 5;
+        String repeatedString = "";
+
+        for (int i99 = 0; i99 < repeatCount; i99++) {
+            repeatedString += inputString;
+        }
+		
+        System.out.println(repeatedString);
+        
+	}
+
+}

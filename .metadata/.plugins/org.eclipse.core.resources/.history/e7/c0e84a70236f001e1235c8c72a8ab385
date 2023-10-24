@@ -1,0 +1,7 @@
+package chap99_homework.hw231020;
+
+import chap99_homework.hw231020.car.Car;
+
+public interface ElectronicCar extends Car {
+	void charge();
+}

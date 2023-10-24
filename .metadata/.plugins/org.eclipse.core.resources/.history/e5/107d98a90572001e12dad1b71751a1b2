@@ -1,0 +1,37 @@
+package chap14_objevtarray._02;
+
+import chap14_objevtarray.Programming;
+
+public class _02_interfaceArray {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		InterfaceArray[] ia = new InterfaceArray[3];
+		
+		ia[0] = new English("영어", 15, 30);
+		ia[1] = new Mathmerics("수학", 10, 50);
+		ia[2] = new Programming("자바", 10, 45);
+		ia[3] = new InterfaceArray() {
+
+			@Override
+			public void proceedLucture() {
+				// TODO Auto-generated method stub
+				System.out.println("1111111111");
+			}
+
+			@Override
+			public void learn() {
+				// TODO Auto-generated method stub
+				System.out.println("22222222222");
+			}
+			
+		};
+		for(InterfaceArray i : ia) {
+			i.proceedLucture();
+			i.learn();
+		}
+		
+		
+	}
+
+}

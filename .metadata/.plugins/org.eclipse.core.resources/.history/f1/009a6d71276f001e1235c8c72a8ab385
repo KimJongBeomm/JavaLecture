@@ -1,0 +1,26 @@
+package chap99_homework.hw231020.Advance;
+
+import java.text.DecimalFormat;
+
+public class MathStudent extends CommonStat implements Student {
+
+	@Override
+	public void saveInfo() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void printInfo() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public double getAvg() {
+		// TODO Auto-generated method stub
+		double roundedValue = Math.round(this * 100.0) / 100.0;
+		return roundedValue;
+	}
+
+}

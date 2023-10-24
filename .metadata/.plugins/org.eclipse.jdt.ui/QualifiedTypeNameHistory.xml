@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="chap08_static.car.Car"/>
+    <fullyQualifiedTypeName name="chap09_inherit.car.HyundaiCarInherit"/>
+    <fullyQualifiedTypeName name="chap09_inherit.car.Car"/>
+    <fullyQualifiedTypeName name="chap09_inherit.car.KiaCarInherit"/>
+    <fullyQualifiedTypeName name="chap09_inherit.anumal.Tiger"/>
+    <fullyQualifiedTypeName name="chap09_inherit.anumal.Bird"/>
+    <fullyQualifiedTypeName name="chap09_inherit.calc.Add"/>
+    <fullyQualifiedTypeName name="chap09_inherit.calc.Sub"/>
+    <fullyQualifiedTypeName name="chap09_inherit.calc.Div"/>
+    <fullyQualifiedTypeName name="chap09_inherit.calc.Mul"/>
+    <fullyQualifiedTypeName name="chap09_inherit.calc.Calculator"/>
+    <fullyQualifiedTypeName name="chap10_polymorphism.tv.LgTv"/>
+    <fullyQualifiedTypeName name="java.lang.Object"/>
+    <fullyQualifiedTypeName name="chap11_abstraction.academy.ComAcademy"/>
+    <fullyQualifiedTypeName name="chap11_abstraction.academy.EngAcademy"/>
+    <fullyQualifiedTypeName name="chap11_abstraction.Tv.Tv"/>
+    <fullyQualifiedTypeName name="chap11_abstraction.Tv.LgTv"/>
+    <fullyQualifiedTypeName name="chap11_abstraction.Tv.SamsungTv"/>
+    <fullyQualifiedTypeName name="chap99_homework.hw231019._01.Employee"/>
+    <fullyQualifiedTypeName name="javax.swing.plaf.basic.BasicLookAndFeel"/>
+    <fullyQualifiedTypeName name="chap12_interface.multiinherit.Mother"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="java.text.DecimalFormat"/>
+    <fullyQualifiedTypeName name="chap13_nestedclass.nestedclass.Nestedclass.Mul"/>
+    <fullyQualifiedTypeName name="chap13_nestedclass.nestedclass.Nestedclass"/>
+    <fullyQualifiedTypeName name="chap13_nestedclass.nestedclass.Nestedclass.Div"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.atomic.AtomicReferenceFieldUpdater"/>
+    <fullyQualifiedTypeName name="chap13_nestedclass._02_UseOfLocalNestedClass"/>
+    <fullyQualifiedTypeName name="chap13_nestedclass.nestedclass.localNestedClass"/>
+    <fullyQualifiedTypeName name="chap13_nestedclass.nestedclass.AnonymousNestedClass"/>
+</qualifiedTypeNameHistroy>

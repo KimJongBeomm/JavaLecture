@@ -1,0 +1,10 @@
+package chap14_objevtarray;
+
+public class English implements InterfaceArray {
+	
+	public void proceedLucture() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

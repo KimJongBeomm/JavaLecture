@@ -1,0 +1,6 @@
+package chap14_objevtarray;
+
+public interface InterfaceArray[] {
+	void proceedLucture();
+	void learn();
+}

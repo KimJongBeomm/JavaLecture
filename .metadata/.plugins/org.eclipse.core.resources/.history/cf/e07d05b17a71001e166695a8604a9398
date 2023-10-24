@@ -1,0 +1,28 @@
+package chap14_objevtarray;
+
+public class Programming {
+	private String subject;
+	private int studuentCnt;
+	private int lectureTime;
+	
+	public Programming() {
+		
+	}
+	public Programming(String subject, int studnetCnt ,
+			int lectureTinme) {
+		this.subject = subject;
+		this.studuentCnt = studnetCnt;
+		this.lectureTime = lectureTinme;
+	}
+	public String getSubject() {
+		return subject;
+	}
+	public int getStuduentCnt() {
+		return studuentCnt;
+	}
+	public int getLectureTime() {
+		return lectureTime;
+	}
+	
+	
+}

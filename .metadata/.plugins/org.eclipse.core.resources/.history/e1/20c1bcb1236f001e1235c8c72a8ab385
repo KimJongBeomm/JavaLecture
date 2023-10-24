@@ -1,0 +1,7 @@
+package chap99_homework.hw231020;
+
+public interface Student {
+	void saveInfo();
+	void printInfo();
+	double getAvg();
+}

@@ -1,0 +1,21 @@
+package chap11_abstraction;
+
+import chap11_abstraction.Tv.LgTv;
+import chap11_abstraction.Tv.SamsungTv;
+import chap11_abstraction.Tv.Tv;
+
+public class _02_AbstractionEx {
+
+	public static void main(String[] args) {
+		Tv tv = new LgTv(11);
+		tv.powerOn();
+		tv.operate(120);
+		tv.powerOff();
+		
+		tv = new SamsungTv(5);
+		tv.powerOn();
+		tv.operate(24);
+		tv.powerOff();
+	}
+
+}
